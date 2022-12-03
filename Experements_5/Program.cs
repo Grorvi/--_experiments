@@ -3,9 +3,13 @@
 // 456 -> 5
 // 782 -> 8
 // 918 -> 1
-
 Console.Clear();
-Console.Write("Введи трёхзначное число: ");
-int threeDigitNumber = Convert.ToInt32(Console.ReadLine());
-string stringNumber = Convert.ToString(threeDigitNumber);
-Console.WriteLine("вторая цифра этого числа  "+stringNumber[1]);
+Console.Write("Введите число  = ");
+int N = int.Parse(Console.ReadLine()!);
+
+int a1 = N/10;
+int a11 = N/100;
+int a3 = N%10;
+int a2 = a1%10;
+
+Console.WriteLine("Второе число " + a2);
