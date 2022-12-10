@@ -9,7 +9,7 @@ int a = int.Parse(Console.ReadLine());
 
 if (a % 2 == 0)
 {
-    Console.WriteLine("Число  четное");
+    Console.Write("Число  четное");
 }
 else
 {
